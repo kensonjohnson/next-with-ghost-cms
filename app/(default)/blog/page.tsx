@@ -15,7 +15,7 @@ import Newsletter from "@/components/newsletter";
 export default async function Blog() {
   try {
     const ghostPosts = await fetch(
-      process.env.NEXT_PUBLIC_BASE_URL + "/api/posts"
+      process.env.NEXT_PUBLIC_BASE_URL + "/api/posts",
     );
 
     if (ghostPosts.ok) {

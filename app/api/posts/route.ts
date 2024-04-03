@@ -1,6 +1,6 @@
 export async function GET(request: Request) {
   const response = await fetch(
-    `${process.env.GHOST_URL}/ghost/api/content/posts/?key=${process.env.GHOST_CONTENT_API_KEY}`
+    `${process.env.GHOST_URL}/ghost/api/content/posts/?key=${process.env.GHOST_CONTENT_API_KEY}`,
   );
 
   if (!response.ok) {
