@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@headlessui/react": "^1.7.18",
+    "@tryghost/content-api": "^1.11.20",
     "aos": "^2.3.4",
     "contentlayer": "^0.3.4",
     "date-fns": "^3.6.0",
