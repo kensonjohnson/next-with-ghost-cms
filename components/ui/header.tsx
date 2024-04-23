@@ -1,8 +1,20 @@
 import Link from "next/link";
 import Dropdown from "@/components/utils/dropdown";
 import MobileMenu from "./mobile-menu";
+import { PostsOrPages } from "@tryghost/content-api";
 
-export default function Header() {
+export default async function Header() {
+  let helpLinks: PostsOrPages | [] = [];
+
+  const response = await fetch(
+    process.env.NEXT_PUBLIC_BASE_URL + "/api/pages/help",
+    { next: { revalidate: 1 } }
+  );
+
+  if (response.ok) {
+    helpLinks = await response.json();
+  }
+
   return (
     <header className="absolute w-full z-30">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -27,20 +39,13 @@ export default function Header() {
             <ul className="flex grow justify-end flex-wrap items-center">
               <li>
                 <Link
-                  href="/features"
+                  href="/"
                   className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
                 >
-                  Features
+                  Home
                 </Link>
               </li>
-              <li>
-                <Link
-                  href="/pricing"
-                  className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
-                >
-                  Pricing
-                </Link>
-              </li>
+
               <li>
                 <Link
                   href="/blog"
@@ -60,7 +65,19 @@ export default function Header() {
               {/* 1st level: hover */}
               <Dropdown title="Support">
                 {/* 2nd level: hover */}
-                <li>
+                {helpLinks.map((link) => {
+                  return (
+                    <li key={link.id}>
+                      <Link
+                        href={`/help/${link.slug}`}
+                        className="font-medium text-sm text-gray-400 hover:text-purple-600 flex py-2 px-4 leading-tight"
+                      >
+                        {link.title}
+                      </Link>
+                    </li>
+                  );
+                })}
+                {/* <li>
                   <Link
                     href="/contact"
                     className="font-medium text-sm text-gray-400 hover:text-purple-600 flex py-2 px-4 leading-tight"
@@ -83,7 +100,7 @@ export default function Header() {
                   >
                     404
                   </Link>
-                </li>
+                </li> */}
               </Dropdown>
             </ul>
 
@@ -91,7 +108,7 @@ export default function Header() {
             <ul className="flex grow justify-end flex-wrap items-center">
               <li>
                 <Link
-                  href="/signin"
+                  href="#"
                   className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Sign in
@@ -99,7 +116,7 @@ export default function Header() {
               </li>
               <li>
                 <Link
-                  href="/signup"
+                  href="#"
                   className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3"
                 >
                   Sign up
