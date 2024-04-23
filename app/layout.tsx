@@ -3,6 +3,8 @@ import "./css/style.css";
 import { Inter, Architects_Daughter } from "next/font/google";
 
 import Header from "@/components/ui/header";
+import PageIllustration from "@/components/page-illustration";
+import Footer from "@/components/ui/footer";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -34,7 +36,11 @@ export default function RootLayout({
       >
         <div className="flex flex-col min-h-screen overflow-hidden">
           <Header />
-          {children}
+          <main className="grow">
+            <PageIllustration />
+            {children}
+          </main>
+          <Footer />
         </div>
       </body>
     </html>
