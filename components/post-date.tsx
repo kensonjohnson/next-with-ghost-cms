@@ -1,6 +1,4 @@
-import { parseISO, format } from "date-fns";
-
 export default function PostDate({ dateString }: { dateString: string }) {
-  const date = parseISO(dateString);
-  return <time dateTime={dateString}>{format(date, "MMM d, yyyy")}</time>;
+  const date = new Date(dateString);
+  return <time dateTime={dateString}>{date.toLocaleString()}</time>;
 }
