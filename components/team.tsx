@@ -24,16 +24,9 @@ export default function Team() {
           </div>
 
           {/* Team members */}
-          <div
-            className="sm:flex sm:flex-wrap sm:justify-center -my-4 sm:-my-8 sm:-mx-3"
-            data-aos-id-team
-          >
+          <div className="sm:flex sm:flex-wrap sm:justify-center -my-4 sm:-my-8 sm:-mx-3">
             {/* 1st member */}
-            <div
-              className="sm:w-1/2 md:w-1/3 lg:w-1/4 py-4 sm:py-8 sm:px-3"
-              data-aos="fade-up"
-              data-aos-anchor="[data-aos-id-team]"
-            >
+            <div className="sm:w-1/2 md:w-1/3 lg:w-1/4 py-4 sm:py-8 sm:px-3">
               <div className="flex flex-col items-center">
                 <Image
                   className="rounded-full mb-4"
@@ -54,12 +47,7 @@ export default function Team() {
             </div>
 
             {/* 2nd member */}
-            <div
-              className="sm:w-1/2 md:w-1/3 lg:w-1/4 py-4 sm:py-8 sm:px-3"
-              data-aos="fade-up"
-              data-aos-delay="100"
-              data-aos-anchor="[data-aos-id-team]"
-            >
+            <div className="sm:w-1/2 md:w-1/3 lg:w-1/4 py-4 sm:py-8 sm:px-3">
               <div className="flex flex-col items-center">
                 <Image
                   className="rounded-full mb-4"
@@ -80,12 +68,7 @@ export default function Team() {
             </div>
 
             {/* 3rd member */}
-            <div
-              className="sm:w-1/2 md:w-1/3 lg:w-1/4 py-4 sm:py-8 sm:px-3"
-              data-aos="fade-up"
-              data-aos-delay="200"
-              data-aos-anchor="[data-aos-id-team]"
-            >
+            <div className="sm:w-1/2 md:w-1/3 lg:w-1/4 py-4 sm:py-8 sm:px-3">
               <div className="flex flex-col items-center">
                 <Image
                   className="rounded-full mb-4"
@@ -106,12 +89,7 @@ export default function Team() {
             </div>
 
             {/* 4th member */}
-            <div
-              className="sm:w-1/2 md:w-1/3 lg:w-1/4 py-4 sm:py-8 sm:px-3"
-              data-aos="fade-up"
-              data-aos-delay="300"
-              data-aos-anchor="[data-aos-id-team]"
-            >
+            <div className="sm:w-1/2 md:w-1/3 lg:w-1/4 py-4 sm:py-8 sm:px-3">
               <div className="flex flex-col items-center">
                 <Image
                   className="rounded-full mb-4"
@@ -132,12 +110,7 @@ export default function Team() {
             </div>
 
             {/* 5th member */}
-            <div
-              className="sm:w-1/2 md:w-1/3 lg:w-1/4 py-4 sm:py-8 sm:px-3"
-              data-aos="fade-up"
-              data-aos-delay="400"
-              data-aos-anchor="[data-aos-id-team]"
-            >
+            <div className="sm:w-1/2 md:w-1/3 lg:w-1/4 py-4 sm:py-8 sm:px-3">
               <div className="flex flex-col items-center">
                 <Image
                   className="rounded-full mb-4"
@@ -158,12 +131,7 @@ export default function Team() {
             </div>
 
             {/* 6th member */}
-            <div
-              className="sm:w-1/2 md:w-1/3 lg:w-1/4 py-4 sm:py-8 sm:px-3"
-              data-aos="fade-up"
-              data-aos-delay="500"
-              data-aos-anchor="[data-aos-id-team]"
-            >
+            <div className="sm:w-1/2 md:w-1/3 lg:w-1/4 py-4 sm:py-8 sm:px-3">
               <div className="flex flex-col items-center">
                 <Image
                   className="rounded-full mb-4"
@@ -184,12 +152,7 @@ export default function Team() {
             </div>
 
             {/* 7th member */}
-            <div
-              className="sm:w-1/2 md:w-1/3 lg:w-1/4 py-4 sm:py-8 sm:px-3"
-              data-aos="fade-up"
-              data-aos-delay="600"
-              data-aos-anchor="[data-aos-id-team]"
-            >
+            <div className="sm:w-1/2 md:w-1/3 lg:w-1/4 py-4 sm:py-8 sm:px-3">
               <div className="flex flex-col items-center">
                 <Image
                   className="rounded-full mb-4"
@@ -210,12 +173,7 @@ export default function Team() {
             </div>
 
             {/* 8th member */}
-            <div
-              className="sm:w-1/2 md:w-1/3 lg:w-1/4 py-4 sm:py-8 sm:px-3"
-              data-aos="fade-up"
-              data-aos-delay="700"
-              data-aos-anchor="[data-aos-id-team]"
-            >
+            <div className="sm:w-1/2 md:w-1/3 lg:w-1/4 py-4 sm:py-8 sm:px-3">
               <div className="flex flex-col items-center">
                 <Image
                   className="rounded-full mb-4"

@@ -14,7 +14,6 @@ export default function TeamImages() {
             <figure
               className="absolute h-auto"
               style={{ top: "45%", width: "41.67%", maxWidth: "320px" }}
-              data-aos="fade-right"
             >
               <Image
                 src={TeamMosaic02}
@@ -26,8 +25,6 @@ export default function TeamImages() {
             <figure
               className="relative mx-auto h-auto"
               style={{ width: "78.13%", maxWidth: "600px" }}
-              data-aos="fade-down"
-              data-aos-delay="100"
             >
               <Image
                 src={TeamMosaic01}
@@ -44,8 +41,6 @@ export default function TeamImages() {
                 width: "32.55%",
                 maxWidth: "250px",
               }}
-              data-aos="fade-left"
-              data-aos-delay="200"
             >
               <Image
                 src={TeamMosaic03}
@@ -62,8 +57,6 @@ export default function TeamImages() {
                 width: "25.52%",
                 maxWidth: "196px",
               }}
-              data-aos="fade-up"
-              data-aos-delay="300"
             >
               <Image
                 src={TeamMosaic04}

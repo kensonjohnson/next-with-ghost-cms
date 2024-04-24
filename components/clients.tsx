@@ -13,16 +13,9 @@ export default function Clients() {
           </div>
 
           {/* Items */}
-          <div
-            className="grid gap-2 grid-cols-2 md:grid-cols-4"
-            data-aos-id-clients
-          >
+          <div className="grid gap-2 grid-cols-2 md:grid-cols-4">
             {/* Item */}
-            <div
-              className="flex items-center justify-center h-24 border border-gray-700 p-2"
-              data-aos="fade-up"
-              data-aos-anchor="[data-aos-id-clients]"
-            >
+            <div className="flex items-center justify-center h-24 border border-gray-700 p-2">
               <svg
                 className="max-w-full fill-current text-gray-500"
                 width="124"
@@ -35,12 +28,7 @@ export default function Clients() {
             </div>
 
             {/* Item */}
-            <div
-              className="flex items-center justify-center h-24 border border-gray-700 p-2"
-              data-aos="fade-up"
-              data-aos-delay="100"
-              data-aos-anchor="[data-aos-id-clients]"
-            >
+            <div className="flex items-center justify-center h-24 border border-gray-700 p-2">
               <svg
                 className="max-w-full fill-current text-gray-500"
                 width="83"
@@ -53,12 +41,7 @@ export default function Clients() {
             </div>
 
             {/* Item */}
-            <div
-              className="flex items-center justify-center h-24 border border-gray-700 p-2"
-              data-aos="fade-up"
-              data-aos-delay="200"
-              data-aos-anchor="[data-aos-id-clients]"
-            >
+            <div className="flex items-center justify-center h-24 border border-gray-700 p-2">
               <svg
                 className="max-w-full fill-current text-gray-500"
                 width="125"
@@ -71,12 +54,7 @@ export default function Clients() {
             </div>
 
             {/* Item */}
-            <div
-              className="flex items-center justify-center h-24 border border-gray-700 p-2"
-              data-aos="fade-up"
-              data-aos-delay="300"
-              data-aos-anchor="[data-aos-id-clients]"
-            >
+            <div className="flex items-center justify-center h-24 border border-gray-700 p-2">
               <svg
                 className="max-w-full fill-current text-gray-500"
                 width="113"
@@ -89,12 +67,7 @@ export default function Clients() {
             </div>
 
             {/* Item */}
-            <div
-              className="flex items-center justify-center h-24 border border-gray-700 p-2"
-              data-aos="fade-up"
-              data-aos-delay="400"
-              data-aos-anchor="[data-aos-id-clients]"
-            >
+            <div className="flex items-center justify-center h-24 border border-gray-700 p-2">
               <svg
                 className="max-w-full fill-current text-gray-500"
                 width="109"
@@ -107,12 +80,7 @@ export default function Clients() {
             </div>
 
             {/* Item */}
-            <div
-              className="flex items-center justify-center h-24 border border-gray-700 p-2"
-              data-aos="fade-up"
-              data-aos-delay="500"
-              data-aos-anchor="[data-aos-id-clients]"
-            >
+            <div className="flex items-center justify-center h-24 border border-gray-700 p-2">
               <svg
                 className="max-w-full fill-current text-gray-500"
                 width="150"
@@ -125,12 +93,7 @@ export default function Clients() {
             </div>
 
             {/* Item */}
-            <div
-              className="flex items-center justify-center h-24 border border-gray-700 p-2"
-              data-aos="fade-up"
-              data-aos-delay="600"
-              data-aos-anchor="[data-aos-id-clients]"
-            >
+            <div className="flex items-center justify-center h-24 border border-gray-700 p-2">
               <svg
                 className="max-w-full fill-current text-gray-500"
                 width="109"
@@ -143,12 +106,7 @@ export default function Clients() {
             </div>
 
             {/* Item */}
-            <div
-              className="flex items-center justify-center h-24 border border-gray-700 p-2"
-              data-aos="fade-up"
-              data-aos-delay="700"
-              data-aos-anchor="[data-aos-id-clients]"
-            >
+            <div className="flex items-center justify-center h-24 border border-gray-700 p-2">
               <svg
                 className="max-w-full fill-current text-gray-500"
                 width="126"

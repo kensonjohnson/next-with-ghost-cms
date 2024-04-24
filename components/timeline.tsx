@@ -5,7 +5,7 @@ export default function Timeline() {
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">Bringing the world's ideas to life</h2>
+            <h2 className="h2 mb-4">Bringing the world&apos;s ideas to life</h2>
             <p className="text-xl text-gray-400">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -13,16 +13,9 @@ export default function Timeline() {
           </div>
 
           {/* Items */}
-          <div
-            className="max-w-3xl mx-auto -my-4 md:-my-6"
-            data-aos-id-timeline
-          >
+          <div className="max-w-3xl mx-auto -my-4 md:-my-6">
             {/* 1st item */}
-            <div
-              className="relative py-4 md:py-6 pl-24"
-              data-aos="fade-up"
-              data-aos-anchor="[data-aos-id-timeline]"
-            >
+            <div className="relative py-4 md:py-6 pl-24">
               <div className="pl-2">
                 <div className="font-architects-daughter text-xl text-purple-600 mb-2">
                   The seed
@@ -50,12 +43,7 @@ export default function Timeline() {
             </div>
 
             {/* 2nd item */}
-            <div
-              className="relative py-4 md:py-6 pl-24"
-              data-aos="fade-up"
-              data-aos-delay="200"
-              data-aos-anchor="[data-aos-id-timeline]"
-            >
+            <div className="relative py-4 md:py-6 pl-24">
               <div className="pl-2">
                 <div className="font-architects-daughter text-xl text-purple-600 mb-2">
                   New features
@@ -85,12 +73,7 @@ export default function Timeline() {
             </div>
 
             {/* 3rd item */}
-            <div
-              className="relative py-4 md:py-6 pl-24"
-              data-aos="fade-up"
-              data-aos-delay="400"
-              data-aos-anchor="[data-aos-id-timeline]"
-            >
+            <div className="relative py-4 md:py-6 pl-24">
               <div className="pl-2">
                 <div className="font-architects-daughter text-xl text-purple-600 mb-2">
                   Pivoting
@@ -118,12 +101,7 @@ export default function Timeline() {
             </div>
 
             {/* 4th item */}
-            <div
-              className="relative py-4 md:py-6 pl-24"
-              data-aos="fade-up"
-              data-aos-delay="600"
-              data-aos-anchor="[data-aos-id-timeline]"
-            >
+            <div className="relative py-4 md:py-6 pl-24">
               <div className="pl-2">
                 <div className="font-architects-daughter text-xl text-purple-600 mb-2">
                   Huge milestone

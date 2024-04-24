@@ -7,13 +7,9 @@ export default function Career() {
           <h3 className="h4 mb-8">Open positions</h3>
 
           {/* Job list */}
-          <div className="-my-3" data-aos-id-career>
+          <div className="-my-3">
             {/* 1st Item */}
-            <div
-              className="py-3"
-              data-aos="fade-up"
-              data-aos-anchor="[data-aos-id-career]"
-            >
+            <div className="py-3">
               <div className="pb-6 border-b border-gray-800">
                 <div className="mb-2">
                   <a
@@ -35,9 +31,9 @@ export default function Career() {
                   </a>
                 </div>
                 <div className="text-lg text-gray-400 mb-3">
-                  You'll be joing the Experience Design Team as a Lead Product
-                  Designer. You'll interface daily with developers - encouraging
-                  and advancing best practices in software.
+                  You&apos;ll be joing the Experience Design Team as a Lead
+                  Product Designer. You&apos;ll interface daily with developers
+                  - encouraging and advancing best practices in software.
                 </div>
                 <div className="text-gray-400 flex flex-wrap items-center">
                   <div className="inline-flex items-center">
@@ -76,12 +72,7 @@ export default function Career() {
             </div>
 
             {/* 2nd Item */}
-            <div
-              className="py-3"
-              data-aos="fade-up"
-              data-aos-delay="200"
-              data-aos-anchor="[data-aos-id-career]"
-            >
+            <div className="py-3">
               <div className="pb-6 border-b border-gray-800">
                 <div className="mb-2">
                   <a
@@ -103,9 +94,9 @@ export default function Career() {
                   </a>
                 </div>
                 <div className="text-lg text-gray-400 mb-3">
-                  You'll be joing the Experience Design Team as a Lead Product
-                  Designer. You'll interface daily with developers - encouraging
-                  and advancing best practices in software.
+                  You&apos;ll be joing the Experience Design Team as a Lead
+                  Product Designer. You&apos;ll interface daily with developers
+                  - encouraging and advancing best practices in software.
                 </div>
                 <div className="text-gray-400 flex flex-wrap items-center">
                   <div className="inline-flex items-center">
@@ -144,12 +135,7 @@ export default function Career() {
             </div>
 
             {/* 3rd Item */}
-            <div
-              className="py-3"
-              data-aos="fade-up"
-              data-aos-delay="400"
-              data-aos-anchor="[data-aos-id-career]"
-            >
+            <div className="py-3">
               <div className="pb-6 border-b border-gray-800">
                 <div className="mb-2">
                   <a
@@ -171,9 +157,9 @@ export default function Career() {
                   </a>
                 </div>
                 <div className="text-lg text-gray-400 mb-3">
-                  You'll be joing the Experience Design Team as a Lead Product
-                  Designer. You'll interface daily with developers - encouraging
-                  and advancing best practices in software.
+                  You&apos;ll be joing the Experience Design Team as a Lead
+                  Product Designer. You&apos;ll interface daily with developers
+                  - encouraging and advancing best practices in software.
                 </div>
                 <div className="text-gray-400 flex flex-wrap items-center">
                   <div className="inline-flex items-center">

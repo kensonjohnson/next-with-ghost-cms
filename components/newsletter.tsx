@@ -3,10 +3,7 @@ export default function Newsletter() {
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         {/* CTA box */}
-        <div
-          className="relative bg-purple-600 py-10 px-8 md:py-16 md:px-12"
-          data-aos="fade-up"
-        >
+        <div className="relative bg-purple-600 py-10 px-8 md:py-16 md:px-12">
           {/* Background illustration */}
           <div
             className="absolute right-0 top-0 -ml-40 pointer-events-none"
