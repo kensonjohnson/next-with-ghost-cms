@@ -1,5 +1,11 @@
 This is a [Next.js](https://nextjs.org/) project using [Ghost](https://ghost.org/) as a headless CMS.
 
+## Built With
+
+- [Next.js](https://nextjs.org/)
+- [Ghost](https://ghost.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+
 ## Getting Started
 
 ### Prerequisites
@@ -8,11 +14,14 @@ This is a [Next.js](https://nextjs.org/) project using [Ghost](https://ghost.org
 
 Make sure you have Node.js installed on your local development machine. You can download the latest version of Node.js from the [official website](https://nodejs.org/en).
 
-#### Ghost CMS
+#### Docker
 
-You need to have a Ghost CMS instance running.
-This project was developed using the [official Ghost Docker Image](https://hub.docker.com/_/ghost).
+You need to create a Ghost CMS instance.
+Instructions below use the [official Ghost Docker Image](https://hub.docker.com/_/ghost).
+If you don't have Docker installed, you can download it from the [official website](https://www.docker.com/products/docker-desktop).
+
 You can also use the [official Ghost(Pro) service](https://ghost.org/pricing/) or [install Ghost on your own server](https://ghost.org/docs/install/).
+Simply skip the first three steps of hte "Ghost CMS" instructions below and use your own setup for the `.env.local` file.
 
 ## Installation
 
@@ -34,7 +43,7 @@ docker pull ghost
 
 4. Create a new Ghost API key by visiting the Ghost Admin panel and navigating to `Integrations` > `Add custom integration`. Give your integration a name, e.g. "Web Client" and click on `Create`. Description is optional.
 
-5. Be prepared to copy the `Content API Key` and `API URL` and update the environment variables in the `.env.local` file of the web client (see below).
+5. Be prepared to copy the `Content API Key` and `API URL` to update the environment variables in the `.env.local` file of the web client (see below).
 
 ### Web Client
 
@@ -50,7 +59,7 @@ git clone https://github.com/kensonjohnson/next-with-ghost-cms.git
 npm install
 ```
 
-3. Rename the `.env.local.example` file to `.env.local` and update the environment variables for your setup.
+3. Make a copy of `.env.local.example` and name it `.env.local`, then update the environment variables for your setup.
 
 4. Start the development server
 
@@ -58,13 +67,7 @@ npm install
 npm run dev
 ```
 
-5. Project will be running at [localhost:3000](http://localhost:3000).
-
-## Built With
-
-- [Next.js](https://nextjs.org/)
-- [Ghost](https://ghost.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
+5. Project will be running at [localhost:3000](http://localhost:3000) by default.
 
 ## License
 
